@@ -22,10 +22,10 @@ Resources:
         - x86_64
       VpcConfig:
         SubnetIds:
-          - subnet-062fd51a91b427645
-          - subnet-06fa807767b511328
+          - <サブネットid1>
+          - <サブネットid2>
         SecurityGroupIds:
-          - sg-0eed59a059ed93906
+          - <セキュリティグループ>
       Events:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
